@@ -36,8 +36,20 @@ var config = {
       mapAnimation: "flyTo",
       rotateAnimation: true,
       callback: "",
-      onChapterEnter: [],
-      onChapterExit: [],
+      onChapterEnter: [
+        {
+          layer: "layer-with-pulsing-dot",
+          duration: 2000,
+          opacity: 1,
+        },
+      ],
+      onChapterExit: [
+        {
+          layer: "layer-with-pulsing-dot",
+          duration: 2000,
+          opacity: 0,
+        },
+      ],
     },
     {
       id: "MYANMAR",
@@ -54,17 +66,30 @@ var config = {
         zoom: 7.5,
         pitch: 0,
         bearing: 0,
-        speed: 0.7,
+        speed: 0.4,
         bbox: [
-          [28.06034, 29.49946],
-          [42.2118, 34.85895],
+          [82.50948, 11.57362],
+          [108.28593, 29.35151],
         ],
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
-      onChapterEnter: [],
-      onChapterExit: [],
+      onChapterEnter: [
+        {
+          layer: "layer-with-pulsing-dot",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "road-draw-line",
+          duration: 2000,
+          opacity: 0,
+        },
+      ],
+      onChapterExit: [
+
+      ],
     },
     {
       id: "ISRAEL",
@@ -81,7 +106,7 @@ var config = {
           zoom: 7.5,
           pitch: 0,
           bearing: 0,
-          speed: 0.7,
+          speed: 0.4,
           bbox: [
             [28.06034, 29.49946],
             [42.2118, 34.85895],
@@ -89,13 +114,30 @@ var config = {
         },
       mapAnimation: "flyTo",
       rotateAnimation: false,
-      callback: "",
-      onChapterEnter: [],
-      onChapterExit: [],
+      callback: "roadDraw",
+      onChapterEnter: [
+        {
+          layer: "layer-with-pulsing-dot",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "road-draw-line",
+          duration: 2000,
+          opacity: 1,
+        },
+      ],
+      onChapterExit: [
+        {
+          layer: "road-draw-line",
+          duration: 2000,
+          opacity: 0,
+        },
+      ],
     },
     {
       id: "GEORGIA",
-      alignment: "full",
+      alignment: "left",
       hidden: false,
       title: "The EU’s critical diplomatic and monitoring role",
       image: "",
@@ -107,12 +149,24 @@ var config = {
         pitch: 16,
         bearing: 7.2,
         speed: 0.6,
+        bbox: [
+        [40.52073, 39.76837],
+        [47.05622, 43.41350],
+      ],
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
-      onChapterEnter: [],
-      onChapterExit: [],
+      onChapterEnter: [
+        {
+          layer: "layer-with-pulsing-dot",
+          duration: 2000,
+          opacity: 0,
+        },
+      ],
+      onChapterExit: [
+
+      ],
     },
     {
       id: "HAITI",
@@ -124,17 +178,23 @@ var config = {
         "The most pressing question for Haiti revolves around the Multinational Security Support Mission (MSS)’ operational profile, funding and future. Once sufficiently equipped and staffed, police and mission personnel should endeavour to protect the capital’s critical infrastructure and step up operations against gang strongholds, with a view both to tempering the country’s humanitarian crisis and providing a safe environment to hold elections." +
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#philippines" target="_blank">&#8594; [Read more]</a>',
-      location: {
-        center: [115.78357, 10.18953],
-        zoom: 4.45,
-        pitch: 39,
-        bearing: -29.24,
-        speed: 0.4,
-      },
+        location: {
+          center: [-72.74457, 18.92369],
+          zoom: 8.5,
+          pitch: 0,
+          bearing: 0,
+          speed: 0.6,
+        },
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
-      onChapterEnter: [],
+      onChapterEnter: [
+        {
+          layer: "layer-with-pulsing-dot",
+          duration: 2000,
+          opacity: 0,
+        },
+      ],
       onChapterExit: [],
     },
     {
@@ -148,16 +208,22 @@ var config = {
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#bosnia" target="_blank">&#8594; [Read more]</a>',
       location: {
-        center: [17.30775, 44.12183],
-        zoom: 7,
-        pitch: 32.5,
-        bearing: 30,
+        center: [-65.82234, 6.66563],
+        zoom: 6,
+        pitch: 0,
+        bearing: 0,
         speed: 0.4,
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
-      onChapterEnter: [],
+      onChapterEnter: [
+        {
+          layer: "layer-with-pulsing-dot",
+          duration: 2000,
+          opacity: 0,
+        },
+      ],
       onChapterExit: [],
     },
     {
@@ -177,8 +243,20 @@ var config = {
       mapAnimation: "flyTo",
       rotateAnimation: true,
       callback: "",
-      onChapterEnter: [],
-      onChapterExit: [],
+      onChapterEnter: [
+        {
+          layer: "layer-with-pulsing-dot",
+          duration: 2000,
+          opacity: 1,
+        },
+      ],
+      onChapterExit: [
+        {
+          layer: "layer-with-pulsing-dot",
+          duration: 2000,
+          opacity: 0,
+        },
+      ],
     },
   ],
 };
