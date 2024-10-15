@@ -1,5 +1,5 @@
 var config = {
-  style: "mapbox://styles/daltonwb/cm2agqbey004s01pc87gh8bz7",
+  style: "mapbox://styles/daltonwb/cm2alcjma000n01pdeo3tb23a",
   accessToken:
     "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw",
   showMarkers: false,
@@ -14,7 +14,7 @@ var config = {
   subtitle: "",
   byline: "",
   footer:
-    '<h4>Credits</h4><strong>Lead Contributors</strong>: Regional Program staff, the EU Research and Advocacy Team, the Policy Team and colleagues working on cross-cutting issues.<br /><strong>Visualisation & Design</strong>: Paul Franz, Claire Boccon-Gibod and Michelle Malaney <br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a><br /><strong>Video credits:</strong></div>',
+    '<h4>Credits</h4><strong>Lead Contributors</strong>: Regional Program staff, the EU Research and Advocacy Team, the Policy Team and colleagues working on cross-cutting issues.<br /><strong>Visualisation & Design</strong>: Paul Franz, Claire Boccon-Gibod and Michelle Malaney <br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a><br /><br /><strong>Video credits:</strong>REUTERS/Maxwell Briceno, AFP, </div>',
   chapters: [
     {
       id: "INTRO",
@@ -86,7 +86,7 @@ var config = {
         {
           layer: "car_country",
           duration: 2000,
-          opacity: 1,
+          opacity: .6,
         },
       ],
       onChapterExit: [
@@ -116,10 +116,7 @@ var config = {
         pitch: 16,
         bearing: 7.2,
         speed: 0.6,
-        bbox: [
-        [40.52073, 39.76837],
-        [47.05622, 43.41350],
-      ],
+        bbox: [[40.21383, 40.57490],[46.98409, 43.41894]],
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
@@ -130,9 +127,48 @@ var config = {
           duration: 2000,
           opacity: 0,
         },
+        {
+          layer: "tblisi-label",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "tblisi",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "georgia_label",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "georgia",
+          duration: 2000,
+          opacity: .6,
+        },
       ],
       onChapterExit: [
-
+        {
+          layer: "tblisi-label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "tblisi",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "georgia_label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "georgia",
+          duration: 2000,
+          opacity: 0,
+        },
       ],
     },
     {
@@ -170,14 +206,33 @@ var config = {
           duration: 2000,
           opacity: 0,
         },
+        {
+          layer: "myanmar_label",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "myanmar",
+          duration: 2000,
+          opacity: .7,
+        },
       ],
       onChapterExit: [
-
+        {
+          layer: "myanmar_label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "myanmar",
+          duration: 2000,
+          opacity: 0,
+        },
       ],
     },
     {
       id: "VZ",
-      alignment: "left",
+      alignment: "center",
       hidden: false,
       title: "Venezuela: Reversing the Slide into Dictatorship",
       image: "",
@@ -201,8 +256,29 @@ var config = {
           duration: 2000,
           opacity: 0,
         },
+        {
+          layer: "venez_label",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "venez",
+          duration: 2000,
+          opacity: .7,
+        },
       ],
-      onChapterExit: [],
+      onChapterExit: [
+        {
+          layer: "venez_label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "venez",
+          duration: 2000,
+          opacity: 0,
+        },
+      ],
     },
     {
       id: "ISRAEL",
