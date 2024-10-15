@@ -598,6 +598,10 @@ ul {
   list-style-type: square;
 }
 
+ul li {
+  margin-bottom: 10px;
+}
+
 .adjust-right {
   margin-left: 15px;
 }

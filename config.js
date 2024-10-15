@@ -1,5 +1,5 @@
 var config = {
-  style: "mapbox://styles/daltonwb/clwj9hw5f00jw01qxhijy3f9f",
+  style: "mapbox://styles/daltonwb/cm2agqbey004s01pc87gh8bz7",
   accessToken:
     "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw",
   showMarkers: false,
@@ -9,12 +9,12 @@ var config = {
   projection: "globe",
   use3dTerrain: false,
   title:
-    '<a href="https://www.crisisgroup.org" target="_blank"><img id="icg" src="images/icg-oj.png" /></a><br /><video id="background-video" autoplay loop muted poster="images/poster.jpg"><source src="images/aerial.mp4" type="video/mp4"></video><h1>EU Watch List 2024 – Autumn Update</h1><p class="hedp">Each year, Crisis Group publishes two updates to the EU Watch List identifying where the EU and its member states can enhance prospects for peace. This update includes entries on Myanmar, Israel and Palestine, Georgia, Haiti and Venezuela.</p>' +
+    '<a href="https://www.crisisgroup.org" target="_blank"><img id="icg" src="images/icg-oj.png" /></a><br /><video id="background-video" autoplay loop muted poster="images/poster.jpg"><source src="images/aerial.mp4" type="video/mp4"></video><h1>EU Watch List 2024 – Autumn Update</h1><p class="hedp">Each year, Crisis Group publishes two updates to the EU Watch List identifying where the EU and its member states can enhance prospects for peace. This update includes entries on the Central African Republic, Georgia, Myanmar, Venezuela and Israeli settlements and settler violence in the West Bank.</p>' +
     '<a id="freeExplore" href="#INTRO"> BEGIN &nbsp;&nbsp; &#8595; </a>',
   subtitle: "",
   byline: "",
   footer:
-    '<h4>Credits</h4><strong>Lead Contributors</strong>: Regional Program staff, the EU Research and Advocacy Team, the Policy Team and colleagues working on cross-cutting issues.<br /><strong>Visualisation & Design</strong>: Paul Franz, Claire Boccon-Gibod and Michelle Malaney <br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a></div>',
+    '<h4>Credits</h4><strong>Lead Contributors</strong>: Regional Program staff, the EU Research and Advocacy Team, the Policy Team and colleagues working on cross-cutting issues.<br /><strong>Visualisation & Design</strong>: Paul Franz, Claire Boccon-Gibod and Michelle Malaney <br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a><br /><strong>Video credits:</strong></div>',
   chapters: [
     {
       id: "INTRO",
@@ -23,7 +23,7 @@ var config = {
       title: "INTRODUCTION",
       image: "",
       description:
-        "Lorem ipsum dolor amet, intro to issues goes here." +
+        "With Brussels immersed in the EU’s own transition and watching anxiously as the U.S. prepares to vote, conflicts and crises around the globe continue unabated. This Watch List update provides a non-exhaustive roster of some – beyond those discussed above – where the EU can play an important part. As always, it attempts to strike a balance between crises high on the EU’s radar and those easily forgotten. In this edition, we focus on Israeli settler violence in the occupied West Bank; Georgia’s democratic backsliding; conflicts in the Central African Republic and Myanmar; and the political crisis in Venezuela. Not all are top political priorities for the EU and member states, but in all their continued work remains critical. From humanitarian aid to long-term assistance, political pressure and continued engagement, Europe can contribute to peace and security in all these places, making a difference for vulnerable people on the ground." +
         '<br /><br /><a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#intro" target="_blank">&#8594; [Read more]</a>' +
         "<br /><br />" +
         "<strong>Scroll down to continue. &#8595;</strong>",
@@ -78,8 +78,29 @@ var config = {
           duration: 2000,
           opacity: 0,
         },
+        {
+          layer: "CAR",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "car_country",
+          duration: 2000,
+          opacity: 1,
+        },
       ],
-      onChapterExit: [],
+      onChapterExit: [
+        {
+          layer: "CAR",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "car_country",
+          duration: 2000,
+          opacity: 0,
+        },
+      ],
     },
     {
       id: "GEORGIA",
@@ -217,8 +238,168 @@ var config = {
           duration: 2000,
           opacity: 0,
         },
+        {
+          layer: "tel-aviv_label",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "beirut_label",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "golan-label",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "damascus_label",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "gaza_strip",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "ISRAEL",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "LEBANON",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "west_bank",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "settlements",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "special-areas",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "west-bank-fill",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "tel-aviv",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "beirut",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "golan_heights",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "israel-fill",
+          duration: 2000,
+          opacity: .7,
+        },
+        {
+          layer: "palestine",
+          duration: 2000,
+          opacity: 1,
+        },
       ],
       onChapterExit: [
+        {
+          layer: "tel-aviv_label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "beirut_label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "golan-label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "damascus_label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "gaza_strip",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "ISRAEL",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "LEBANON",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "west_bank",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "settlements",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "special-areas",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "west-bank-fill",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "tel-aviv",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "beirut",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "golan_heights",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "israel-fill",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "palestine",
+          duration: 2000,
+          opacity: 0,
+        },
       ],
     },
     {
