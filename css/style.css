@@ -7,8 +7,8 @@ body {
 
 p {
   color: #fff;
-  border-radius: 5px;
   font-size: 1.6em;
+  margin-top: 15px;
 }
 
 .spacer {
@@ -259,7 +259,7 @@ h3 {
   font-size: 24px;
   font-weight: bold;
   letter-spacing: 1px;
-  color: #6e7476;
+  color: #ea8538;
   margin-bottom: 0;
   line-height: 1.2em;
 }
@@ -375,12 +375,10 @@ h5 {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
-  background-color: #e87722;
   /* Lighter gray for highlighting */
-  color: #fff;
+  color: #ea8538;
   display: inline-block;
   /* Ensures the background only covers the text */
-  padding: 5px 8px 5px 8px;
 }
 
 @media (max-width: 750px) {
@@ -390,7 +388,7 @@ h5 {
 }
 
 .centered .light h3 {
-  color: #8aadbe;
+  color: #ea8538;
 }
 
 .righty {
