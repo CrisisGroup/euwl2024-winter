@@ -200,13 +200,12 @@ var config = {
           bearing: 0,
           speed: 0.4,
           bbox: [
-            [28.06034, 29.49946],
-            [42.2118, 34.85895],
+            [[33.53149, 30.77558],[37.32678, 33.12669]],
           ],
         },
       mapAnimation: "flyTo",
       rotateAnimation: false,
-      callback: "roadDraw",
+      callback: "",
       onChapterEnter: [
         {
           layer: "layer-with-pulsing-dot",
@@ -216,15 +215,10 @@ var config = {
         {
           layer: "road-draw-line",
           duration: 2000,
-          opacity: 1,
+          opacity: 0,
         },
       ],
       onChapterExit: [
-        {
-          layer: "road-draw-line",
-          duration: 2000,
-          opacity: 0,
-        },
       ],
     },
     {
