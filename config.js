@@ -1,5 +1,5 @@
 var config = {
-  style: "mapbox://styles/daltonwb/cm2alcjma000n01pdeo3tb23a",
+  style: "mapbox://styles/daltonwb/cm2altqc8000v01pb4lbu06p8",
   accessToken:
     "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw",
   showMarkers: false,
@@ -216,6 +216,16 @@ var config = {
           duration: 2000,
           opacity: .7,
         },
+        {
+          layer: "naypyidaw_label",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "naypyidaw",
+          duration: 2000,
+          opacity: 1,
+        },
       ],
       onChapterExit: [
         {
@@ -225,6 +235,16 @@ var config = {
         },
         {
           layer: "myanmar",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "naypyidaw_label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "naypyidaw",
           duration: 2000,
           opacity: 0,
         },
