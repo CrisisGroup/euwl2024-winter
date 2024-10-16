@@ -1,5 +1,5 @@
 var config = {
-  style: "mapbox://styles/daltonwb/cm2bzxqd8002g01nxgkbw7i18",
+  style: "mapbox://styles/daltonwb/cm2c0ddjr00zp01qk2fuv4f2u",
   accessToken:
     "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw",
   showMarkers: false,
@@ -319,12 +319,12 @@ var config = {
     },
     {
       id: "CAR",
-      alignment: "left",
+      alignment: "center",
       hidden: false,
       title: "Bringing Lasting Peace to the Central African Republic",
       image: "",
       description:
-        "To this end, the European Union and its member states should: <ul><li>Continue to avoid approaching CAR’s government solely from the perspective of geopolitical competition with Russia;</li><li>Maintain humanitarian assistance while beginning to implement plans to support the country’s development;</li><liStrengthen prospects for young men and women by supporting employment and training projects and encouraging their political participation;</li><li>Reinforce efforts to promote a culture of inclusiveness, respect for human rights and accountability in the security sector.</li></ul>" + '<a href="https://www.crisisgroup.org/global/watch-list-2024-autumn-update#car" target="_blank">&#8594; [Read more]</a>',
+        "To this end, the European Union and its member states should: <ul><li>Continue to avoid approaching CAR’s government solely from the perspective of geopolitical competition with Russia;</li><li>Maintain humanitarian assistance while beginning to implement plans to support the country’s development;</li><liStrengthen prospects for young men and women by supporting employment and training projects and encouraging their political participation;</li><li>Reinforce efforts to promote a culture of inclusiveness, respect for human rights and accountability in the security sector.</li></ul>" + '<a href="https://www.crisisgroup.org/global/watch-list-2024-autumn-update#car" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + "<img src='images/car.jpg' /><p class='photocaption'>A sign reads “bel avenir” (bright future) at the Ministry of Youth and Sport in Bangui. November 2019. CRISIS GROUP / Julie David de Lossy</p>",
         location: {
           center: [19.65155, 6.49910],
           zoom: 6.5,
