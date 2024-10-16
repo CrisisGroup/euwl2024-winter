@@ -1,5 +1,5 @@
 var config = {
-  style: "mapbox://styles/daltonwb/cm2c0ddjr00zp01qk2fuv4f2u",
+  style: "mapbox://styles/daltonwb/cm2c18doj00zw01qk7tqrbkhv",
   accessToken:
     "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw",
   showMarkers: false,
@@ -58,7 +58,7 @@ var config = {
       title: "Occupied West Bank: Curb Israeli Settler Violence and Settlement Expansion",
       image: "",
       description:
-        "The EU and its member states should: <ul><li>Keep pushing for a ceasefire and a hostage deal in Gaza, as well as for unfettered humanitarian access throughout the occupied territories; these measures might also calm tensions in the West Bank;</li><li>Consider expanding sanctions to include far-right ministers, as well as the organisations and groups that perpetuate settler violence and expansion;</li><li>Enforce the EU’s differentiation policy more robustly and consistently so that agreements and cooperation programs with Israel do not apply to the occupied territories;</li><li>Review whether Israel is complying with human rights and democratic principles iterated in the EU-Israel Association Agreement;</li><li>Apply a more restrictive interpretation of the EU’s arms control policy.</li></ul>" + '<a href="https://www.crisisgroup.org/global/watch-list-2024-autumn-update#palestine" target="_blank">&#8594; [Read more]</a>',
+        "The EU and its member states should: <ul><li>Keep pushing for a ceasefire and a hostage deal in Gaza, as well as for unfettered humanitarian access throughout the occupied territories; these measures might also calm tensions in the West Bank;</li><li>Consider expanding sanctions to include far-right ministers, as well as the organisations and groups that perpetuate settler violence and expansion;</li><li>Enforce the EU’s differentiation policy more robustly and consistently so that agreements and cooperation programs with Israel do not apply to the occupied territories;</li><li>Review whether Israel is complying with human rights and democratic principles iterated in the EU-Israel Association Agreement;</li><li>Apply a more restrictive interpretation of the EU’s arms control policy.</li></ul>" + "This map shows the establishment of Israeli settlements and outposts from 1967 to 2020. <strong>Settlements</strong> in the West Bank that were officially established by the government (East Jerusalem excluded). <strong style='color: #c88589;'>Outposts</strong> are settlements that were established since the 1990's without government approval and are considered illegal according to Israeli law.<br /><br />" + '<a href="https://www.crisisgroup.org/global/watch-list-2024-autumn-update#palestine" target="_blank">&#8594; [Read more]</a>',
         location: {
           center: [35.08351, 32.23019],
           zoom: 7.5,
