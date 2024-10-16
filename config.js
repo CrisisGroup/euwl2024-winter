@@ -1,5 +1,5 @@
 var config = {
-  style: "mapbox://styles/daltonwb/cm2altqc8000v01pb4lbu06p8",
+  style: "mapbox://styles/daltonwb/cm2bygwes00z901qk98b4b5fu",
   accessToken:
     "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw",
   showMarkers: false,
@@ -46,249 +46,6 @@ var config = {
       onChapterExit: [
         {
           layer: "layer-with-pulsing-dot",
-          duration: 2000,
-          opacity: 0,
-        },
-      ],
-    },
-    {
-      id: "CAR",
-      alignment: "left",
-      hidden: false,
-      title: "Bringing Lasting Peace to the Central African Republic",
-      image: "",
-      description:
-        "To this end, the European Union and its member states should: <ul><li>Continue to avoid approaching CAR’s government solely from the perspective of geopolitical competition with Russia;</li><li>Maintain humanitarian assistance while beginning to implement plans to support the country’s development;</li><liStrengthen prospects for young men and women by supporting employment and training projects and encouraging their political participation;</li><li>Reinforce efforts to promote a culture of inclusiveness, respect for human rights and accountability in the security sector.</li></ul>" + '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#philippines" target="_blank">&#8594; [Read more]</a>',
-        location: {
-          center: [-72.74457, 18.92369],
-          zoom: 8.5,
-          pitch: 0,
-          bearing: 0,
-          speed: 0.6,
-          bbox: [[11.35056, -1.27608],[33.38399, 12.30760]],
-        },
-      mapAnimation: "flyTo",
-      rotateAnimation: false,
-      callback: "",
-      onChapterEnter: [
-        {
-          layer: "layer-with-pulsing-dot",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "CAR",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "car_country",
-          duration: 2000,
-          opacity: .6,
-        },
-      ],
-      onChapterExit: [
-        {
-          layer: "CAR",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "car_country",
-          duration: 2000,
-          opacity: 0,
-        },
-      ],
-    },
-    {
-      id: "GEORGIA",
-      alignment: "left",
-      hidden: false,
-      title: "Georgia: How to Tread Carefully and Preserve the EU’s Diplomatic Role",
-      image: "",
-      description:
-        "To preserve its peacemaking role and encourage peaceful elections, the EU and its member states should:<ul><li>Offer mediation services if the October elections are contested or lead to political turmoil;</li><li>After the vote, craft responses to democratic backsliding that target those responsible, while avoiding measures that punish ordinary citizens;</li><li>Redouble efforts to counter disinformation about EU policies and promote independent media;</li><li>Intensify EU monitoring and mediation with regard to South Ossetia and Abkhazia.</li></ul>" + '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#israel" target="_blank">&#8594; [Read more]</a>',
-      location: {
-        center: [27.75505, 15.19553],
-        zoom: 5,
-        pitch: 16,
-        bearing: 7.2,
-        speed: 0.6,
-        bbox: [[40.21383, 40.57490],[46.98409, 43.41894]],
-      },
-      mapAnimation: "flyTo",
-      rotateAnimation: false,
-      callback: "",
-      onChapterEnter: [
-        {
-          layer: "layer-with-pulsing-dot",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "tblisi-label",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "tblisi",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "georgia_label",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "georgia",
-          duration: 2000,
-          opacity: .6,
-        },
-      ],
-      onChapterExit: [
-        {
-          layer: "tblisi-label",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "tblisi",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "georgia_label",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "georgia",
-          duration: 2000,
-          opacity: 0,
-        },
-      ],
-    },
-    {
-      id: "MYANMAR",
-      alignment: "left",
-      hidden: false,
-      title: "Myanmar: The Death Throes of Min Aung Hlaing’s Regime",
-      image: "",
-      description:
-        "The European Union and its member states can help address the crisis in Myanmar by: <ul><li>Maintaining and expanding sanctions on the regime but not revoking the Everything But Arms (EBA) trade preferences scheme which supports the jobs of hundreds of thousands of garment workers (most of them women) but provides little benefit to the regime;</li><li>Supporting the ILO in addressing labour rights violations;</li><li>Reversing development cuts, including for programming in areas outside regime control, to help improve livelihoods and promote better governance, and maintain support to Rohingya;</li><li>Urging Myanmar’s neighbours to adopt more realistic policies that reflect the military’s loss of control in border areas and the needs of populations in ethnic armed group-controlled parts of Myanmar, and press them not to endorse or support flawed elections that may be held in 2025;</li><li>Pushing for the appointment of an experienced UN permanent in-country resident and humanitarian coordinator.</li></ul>" + '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#israel" target="_blank">&#8594; [Read more]</a>',
-      location: {
-        center: [35.08351, 32.23019],
-        zoom: 7.5,
-        pitch: 0,
-        bearing: 0,
-        speed: 0.4,
-        bbox: [
-          [82.50948, 11.57362],
-          [108.28593, 29.35151],
-        ],
-      },
-      mapAnimation: "flyTo",
-      rotateAnimation: false,
-      callback: "",
-      onChapterEnter: [
-        {
-          layer: "layer-with-pulsing-dot",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "road-draw-line",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "myanmar_label",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "myanmar",
-          duration: 2000,
-          opacity: .7,
-        },
-        {
-          layer: "naypyidaw_label",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "naypyidaw",
-          duration: 2000,
-          opacity: 1,
-        },
-      ],
-      onChapterExit: [
-        {
-          layer: "myanmar_label",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "myanmar",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "naypyidaw_label",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "naypyidaw",
-          duration: 2000,
-          opacity: 0,
-        },
-      ],
-    },
-    {
-      id: "VZ",
-      alignment: "center",
-      hidden: false,
-      title: "Venezuela: Reversing the Slide into Dictatorship",
-      image: "",
-      description:
-        "The EU and its member states should: <ul><li>Continue non-recognition of Maduro’s win in absence of evidence, but avoid recognising a president (in this case González) with no effective control of the country;</li><li>Push for return to negotiations, conditioned on Maduro agreeing to halt repression, reverse restrictions on civic and political activism, and allow the UN High Commissioner for Human Rights office to return to Caracas;</li><li>Keep channels of communication open by all available diplomatic means; </li><li>Extend sanctions against those responsible for human rights violations, corruption and vote-rigging;</li><li>Continue support to civil society in its pushback against narrowing of the civic and political space.</li></ul>" + '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#bosnia" target="_blank">&#8594; [Read more]</a>',
-      location: {
-        center: [-65.82234, 6.66563],
-        zoom: 6,
-        pitch: 0,
-        bearing: 0,
-        speed: 0.4,
-      },
-      mapAnimation: "flyTo",
-      rotateAnimation: false,
-      callback: "",
-      onChapterEnter: [
-        {
-          layer: "layer-with-pulsing-dot",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "venez_label",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
-          layer: "venez",
-          duration: 2000,
-          opacity: .7,
-        },
-      ],
-      onChapterExit: [
-        {
-          layer: "venez_label",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "venez",
           duration: 2000,
           opacity: 0,
         },
@@ -486,6 +243,266 @@ var config = {
         },
         {
           layer: "palestine",
+          duration: 2000,
+          opacity: 0,
+        },
+      ],
+    },
+    {
+      id: "GEORGIA",
+      alignment: "left",
+      hidden: false,
+      title: "Georgia: How to Tread Carefully and Preserve the EU’s Diplomatic Role",
+      image: "",
+      description:
+        "To preserve its peacemaking role and encourage peaceful elections, the EU and its member states should:<ul><li>Offer mediation services if the October elections are contested or lead to political turmoil;</li><li>After the vote, craft responses to democratic backsliding that target those responsible, while avoiding measures that punish ordinary citizens;</li><li>Redouble efforts to counter disinformation about EU policies and promote independent media;</li><li>Intensify EU monitoring and mediation with regard to South Ossetia and Abkhazia.</li></ul>" + '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#israel" target="_blank">&#8594; [Read more]</a>',
+      location: {
+        center: [27.75505, 15.19553],
+        zoom: 5,
+        pitch: 16,
+        bearing: 7.2,
+        speed: 0.6,
+        bbox: [[40.21383, 40.57490],[46.98409, 43.41894]],
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      callback: "",
+      onChapterEnter: [
+        {
+          layer: "layer-with-pulsing-dot",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "tblisi-label",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "tblisi",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "georgia_label",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "georgia",
+          duration: 2000,
+          opacity: .6,
+        },
+      ],
+      onChapterExit: [
+        {
+          layer: "tblisi-label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "tblisi",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "georgia_label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "georgia",
+          duration: 2000,
+          opacity: 0,
+        },
+      ],
+    },
+    {
+      id: "CAR",
+      alignment: "left",
+      hidden: false,
+      title: "Bringing Lasting Peace to the Central African Republic",
+      image: "",
+      description:
+        "To this end, the European Union and its member states should: <ul><li>Continue to avoid approaching CAR’s government solely from the perspective of geopolitical competition with Russia;</li><li>Maintain humanitarian assistance while beginning to implement plans to support the country’s development;</li><liStrengthen prospects for young men and women by supporting employment and training projects and encouraging their political participation;</li><li>Reinforce efforts to promote a culture of inclusiveness, respect for human rights and accountability in the security sector.</li></ul>" + '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#philippines" target="_blank">&#8594; [Read more]</a>',
+        location: {
+          center: [-72.74457, 18.92369],
+          zoom: 8.5,
+          pitch: 0,
+          bearing: 0,
+          speed: 0.6,
+          bbox: [[11.35056, -1.27608],[33.38399, 12.30760]],
+        },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      callback: "",
+      onChapterEnter: [
+        {
+          layer: "layer-with-pulsing-dot",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "CAR",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "car_country",
+          duration: 2000,
+          opacity: .6,
+        },
+      ],
+      onChapterExit: [
+        {
+          layer: "CAR",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "car_country",
+          duration: 2000,
+          opacity: 0,
+        },
+      ],
+    },
+    {
+      id: "VZ",
+      alignment: "center",
+      hidden: false,
+      title: "Venezuela: Reversing the Slide into Dictatorship",
+      image: "",
+      description:
+        "The EU and its member states should: <ul><li>Continue non-recognition of Maduro’s win in absence of evidence, but avoid recognising a president (in this case González) with no effective control of the country;</li><li>Push for return to negotiations, conditioned on Maduro agreeing to halt repression, reverse restrictions on civic and political activism, and allow the UN High Commissioner for Human Rights office to return to Caracas;</li><li>Keep channels of communication open by all available diplomatic means; </li><li>Extend sanctions against those responsible for human rights violations, corruption and vote-rigging;</li><li>Continue support to civil society in its pushback against narrowing of the civic and political space.</li></ul>" + '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#bosnia" target="_blank">&#8594; [Read more]</a>',
+      location: {
+        center: [-65.82234, 6.66563],
+        zoom: 6,
+        pitch: 0,
+        bearing: 0,
+        speed: 0.4,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      callback: "",
+      onChapterEnter: [
+        {
+          layer: "layer-with-pulsing-dot",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "venez_label",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "venez",
+          duration: 2000,
+          opacity: .7,
+        },
+      ],
+      onChapterExit: [
+        {
+          layer: "venez_label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "venez",
+          duration: 2000,
+          opacity: 0,
+        },
+      ],
+    },
+    {
+      id: "MYANMAR",
+      alignment: "left",
+      hidden: false,
+      title: "Myanmar: The Death Throes of Min Aung Hlaing’s Regime",
+      image: "",
+      description:
+        "The European Union and its member states can help address the crisis in Myanmar by: <ul><li>Maintaining and expanding sanctions on the regime but not revoking the Everything But Arms (EBA) trade preferences scheme which supports the jobs of hundreds of thousands of garment workers (most of them women) but provides little benefit to the regime;</li><li>Supporting the ILO in addressing labour rights violations;</li><li>Reversing development cuts, including for programming in areas outside regime control, to help improve livelihoods and promote better governance, and maintain support to Rohingya;</li><li>Urging Myanmar’s neighbours to adopt more realistic policies that reflect the military’s loss of control in border areas and the needs of populations in ethnic armed group-controlled parts of Myanmar, and press them not to endorse or support flawed elections that may be held in 2025;</li><li>Pushing for the appointment of an experienced UN permanent in-country resident and humanitarian coordinator.</li></ul>" + '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#israel" target="_blank">&#8594; [Read more]</a>',
+      location: {
+        center: [35.08351, 32.23019],
+        zoom: 7.5,
+        pitch: 0,
+        bearing: 0,
+        speed: 0.4,
+        bbox: [[88.99873, 15.62231],[100.63204, 23.38514]],
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      callback: "",
+      onChapterEnter: [
+        {
+          layer: "layer-with-pulsing-dot",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "road-draw-line",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "myanmar_label",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "myanmar",
+          duration: 2000,
+          opacity: .7,
+        },
+        {
+          layer: "naypyidaw_label",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "naypyidaw",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "rakhine",
+          duration: 2000,
+          opacity: .8,
+        },
+        {
+          layer: "rakhine_label",
+          duration: 2000,
+          opacity: 1,
+        },
+      ],
+      onChapterExit: [
+        {
+          layer: "myanmar_label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "myanmar",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "naypyidaw_label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "naypyidaw",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "rakhine",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "rakhine_label",
           duration: 2000,
           opacity: 0,
         },
