@@ -667,7 +667,7 @@ ul li {
 
 #isrlegend {
   color: black;
-  text-shadow: none;
+  text-shadow: 4px;
   font-size: 1.25em;
 }
 
@@ -722,7 +722,7 @@ ul.legend-ul li {
 .legend div span {
   display: inline-block;
   height: 10px;
-  width: 30px;
+  width: 10px;
   margin-right: 5px;
 }
 

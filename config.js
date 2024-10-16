@@ -250,7 +250,7 @@ var config = {
     },
     {
       id: "GEORGIA",
-      alignment: "left",
+      alignment: "center",
       hidden: false,
       title: "Georgia: How to Tread Carefully and Preserve the EU’s Diplomatic Role",
       image: "",
