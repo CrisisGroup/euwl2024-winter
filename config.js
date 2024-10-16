@@ -58,7 +58,7 @@ var config = {
       title: "Occupied West Bank: Curb Israeli Settler Violence and Settlement Expansion",
       image: "",
       description:
-        "The EU and its member states should: <ul><li>Keep pushing for a ceasefire and a hostage deal in Gaza, as well as for unfettered humanitarian access throughout the occupied territories; these measures might also calm tensions in the West Bank;</li><li>Consider expanding sanctions to include far-right ministers, as well as the organisations and groups that perpetuate settler violence and expansion;</li><li>Enforce the EU’s differentiation policy more robustly and consistently so that agreements and cooperation programs with Israel do not apply to the occupied territories;</li><li>Review whether Israel is complying with human rights and democratic principles iterated in the EU-Israel Association Agreement;</li><li>Apply a more restrictive interpretation of the EU’s arms control policy.</li></ul>" + '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#sudan" target="_blank">&#8594; [Read more]</a>',
+        "The EU and its member states should: <ul><li>Keep pushing for a ceasefire and a hostage deal in Gaza, as well as for unfettered humanitarian access throughout the occupied territories; these measures might also calm tensions in the West Bank;</li><li>Consider expanding sanctions to include far-right ministers, as well as the organisations and groups that perpetuate settler violence and expansion;</li><li>Enforce the EU’s differentiation policy more robustly and consistently so that agreements and cooperation programs with Israel do not apply to the occupied territories;</li><li>Review whether Israel is complying with human rights and democratic principles iterated in the EU-Israel Association Agreement;</li><li>Apply a more restrictive interpretation of the EU’s arms control policy.</li></ul>" + '<a href="https://www.crisisgroup.org/global/watch-list-2024-autumn-update#palestine" target="_blank">&#8594; [Read more]</a>',
         location: {
           center: [35.08351, 32.23019],
           zoom: 7.5,
@@ -255,7 +255,7 @@ var config = {
       title: "Georgia: How to Tread Carefully and Preserve the EU’s Diplomatic Role",
       image: "",
       description:
-        "To preserve its peacemaking role and encourage peaceful elections, the EU and its member states should:<ul><li>Offer mediation services if the October elections are contested or lead to political turmoil;</li><li>After the vote, craft responses to democratic backsliding that target those responsible, while avoiding measures that punish ordinary citizens;</li><li>Redouble efforts to counter disinformation about EU policies and promote independent media;</li><li>Intensify EU monitoring and mediation with regard to South Ossetia and Abkhazia.</li></ul>" + '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#israel" target="_blank">&#8594; [Read more]</a>',
+        "To preserve its peacemaking role and encourage peaceful elections, the EU and its member states should:<ul><li>Offer mediation services if the October elections are contested or lead to political turmoil;</li><li>After the vote, craft responses to democratic backsliding that target those responsible, while avoiding measures that punish ordinary citizens;</li><li>Redouble efforts to counter disinformation about EU policies and promote independent media;</li><li>Intensify EU monitoring and mediation with regard to South Ossetia and Abkhazia.</li></ul>" + '<a href="https://www.crisisgroup.org/global/watch-list-2024-autumn-update#georgia" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + "<img src='images/georgia.jpg' /><p class='photocaption'>People walk past graffiti on a wall next to the parliament building on Shota Rustaveli Avenue in Tbilisi, Georgia. July 2024. CRISIS GROUP / Elissa Jobson</p>",
       location: {
         center: [27.75505, 15.19553],
         zoom: 5,
@@ -324,14 +324,13 @@ var config = {
       title: "Bringing Lasting Peace to the Central African Republic",
       image: "",
       description:
-        "To this end, the European Union and its member states should: <ul><li>Continue to avoid approaching CAR’s government solely from the perspective of geopolitical competition with Russia;</li><li>Maintain humanitarian assistance while beginning to implement plans to support the country’s development;</li><liStrengthen prospects for young men and women by supporting employment and training projects and encouraging their political participation;</li><li>Reinforce efforts to promote a culture of inclusiveness, respect for human rights and accountability in the security sector.</li></ul>" + '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#philippines" target="_blank">&#8594; [Read more]</a>',
+        "To this end, the European Union and its member states should: <ul><li>Continue to avoid approaching CAR’s government solely from the perspective of geopolitical competition with Russia;</li><li>Maintain humanitarian assistance while beginning to implement plans to support the country’s development;</li><liStrengthen prospects for young men and women by supporting employment and training projects and encouraging their political participation;</li><li>Reinforce efforts to promote a culture of inclusiveness, respect for human rights and accountability in the security sector.</li></ul>" + '<a href="https://www.crisisgroup.org/global/watch-list-2024-autumn-update#car" target="_blank">&#8594; [Read more]</a>',
         location: {
-          center: [-72.74457, 18.92369],
-          zoom: 8.5,
+          center: [19.65155, 6.49910],
+          zoom: 6.5,
           pitch: 0,
           bearing: 0,
           speed: 0.6,
-          bbox: [[11.35056, -1.27608],[33.38399, 12.30760]],
         },
       mapAnimation: "flyTo",
       rotateAnimation: false,
@@ -343,14 +342,14 @@ var config = {
           opacity: 0,
         },
         {
-          layer: "CAR",
-          duration: 2000,
-          opacity: 1,
-        },
-        {
           layer: "car_country",
           duration: 2000,
           opacity: .6,
+        },
+        {
+          layer: "CAR",
+          duration: 2000,
+          opacity: 1,
         },
       ],
       onChapterExit: [
@@ -373,7 +372,7 @@ var config = {
       title: "Venezuela: Reversing the Slide into Dictatorship",
       image: "",
       description:
-        "The EU and its member states should: <ul><li>Continue non-recognition of Maduro’s win in absence of evidence, but avoid recognising a president (in this case González) with no effective control of the country;</li><li>Push for return to negotiations, conditioned on Maduro agreeing to halt repression, reverse restrictions on civic and political activism, and allow the UN High Commissioner for Human Rights office to return to Caracas;</li><li>Keep channels of communication open by all available diplomatic means; </li><li>Extend sanctions against those responsible for human rights violations, corruption and vote-rigging;</li><li>Continue support to civil society in its pushback against narrowing of the civic and political space.</li></ul>" + '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#bosnia" target="_blank">&#8594; [Read more]</a>',
+        "The EU and its member states should: <ul><li>Continue non-recognition of Maduro’s win in absence of evidence, but avoid recognising a president (in this case González) with no effective control of the country;</li><li>Push for return to negotiations, conditioned on Maduro agreeing to halt repression, reverse restrictions on civic and political activism, and allow the UN High Commissioner for Human Rights office to return to Caracas;</li><li>Keep channels of communication open by all available diplomatic means; </li><li>Extend sanctions against those responsible for human rights violations, corruption and vote-rigging;</li><li>Continue support to civil society in its pushback against narrowing of the civic and political space.</li></ul>" + '<a href="https://www.crisisgroup.org/global/watch-list-2024-autumn-update#venezuela" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + "<img src='images/georgia.jpg' /><p class='photocaption'>Venezuelan opposition leader Maria Corina Machado holds up a copy of electoral records during a protest against the election results announced by President Nicolas Maduro's government. Caracas, Venezuela, August 28, 2024. REUTERS/Maxwell Briceno</p>",
       location: {
         center: [-65.82234, 6.66563],
         zoom: 6,
@@ -421,7 +420,7 @@ var config = {
       title: "Myanmar: The Death Throes of Min Aung Hlaing’s Regime",
       image: "",
       description:
-        "The European Union and its member states can help address the crisis in Myanmar by: <ul><li>Maintaining and expanding sanctions on the regime but not revoking the Everything But Arms (EBA) trade preferences scheme which supports the jobs of hundreds of thousands of garment workers (most of them women) but provides little benefit to the regime;</li><li>Supporting the ILO in addressing labour rights violations;</li><li>Reversing development cuts, including for programming in areas outside regime control, to help improve livelihoods and promote better governance, and maintain support to Rohingya;</li><li>Urging Myanmar’s neighbours to adopt more realistic policies that reflect the military’s loss of control in border areas and the needs of populations in ethnic armed group-controlled parts of Myanmar, and press them not to endorse or support flawed elections that may be held in 2025;</li><li>Pushing for the appointment of an experienced UN permanent in-country resident and humanitarian coordinator.</li></ul>" + '<a href="https://www.crisisgroup.org/global/watch-list-2024-spring-update#israel" target="_blank">&#8594; [Read more]</a>',
+        "The European Union and its member states can help address the crisis in Myanmar by: <ul><li>Maintaining and expanding sanctions on the regime but not revoking the Everything But Arms (EBA) trade preferences scheme which supports the jobs of hundreds of thousands of garment workers (most of them women) but provides little benefit to the regime;</li><li>Supporting the ILO in addressing labour rights violations;</li><li>Reversing development cuts, including for programming in areas outside regime control, to help improve livelihoods and promote better governance, and maintain support to Rohingya;</li><li>Urging Myanmar’s neighbours to adopt more realistic policies that reflect the military’s loss of control in border areas and the needs of populations in ethnic armed group-controlled parts of Myanmar, and press them not to endorse or support flawed elections that may be held in 2025;</li><li>Pushing for the appointment of an experienced UN permanent in-country resident and humanitarian coordinator.</li></ul>" + '<a href="https://www.crisisgroup.org/global/watch-list-2024-autumn-update#myanmar" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [35.08351, 32.23019],
         zoom: 7.5,
